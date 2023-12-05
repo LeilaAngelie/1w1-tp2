@@ -14,15 +14,22 @@
         <h1>TP2</h1>
         <!-- navigation principal -->
 <nav class="menu">
-<a href="#acceuil">acceuil</a>
-<a href="#inscription">Inscription</a>
-<a href="#galerie">galerie</a>
-
+    <section>
+        <a href="#Entete"> Entête</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Acceuil">acceuil</a>
+        <a href="#Inscription"> Inscription</a>
+        <a href="#Tableau">Tableau</a>
+        <a href="#Article">article</a>
+        <a href="#Galerie">galerie</a>
+        <a href="#Vidéo">Vidéo</a>
+        <a href="#Pied de Page">Pied de page</a>    
 </nav>
 <div class="global" id="entete"></div>
 
 <input type="checkbox" id="chk_burger">
 <label id="burger" for="chk_burger">
+    <!-- Création d'un boutton https://svgbox.net/--> 
     <img src="https://s2.svgbox.net/materialui.svg?ic=drag_handle" width="2">
 </label>
 
@@ -41,6 +48,23 @@
    <div class="global" id="Inscription">
     <section>
         <h1>Inscription</h1>
+        <form action="" class="formulaire">
+            <label class="étiquette_nom" for="input_nom">Nom</label>
+            <input type="text" id="input_nom" placeholder="votre nom de famille">
+            <label class="étiquette_prenom" for="input_prenom">Prénom</label>
+            <input type="text" id="input_prenom"></form>
+            <label class="étiquette_tel" for="input_tel">Tel</label>
+            <input type="text" id="input_tel"></input>
+            <fieldset>
+                <label for="input_html" class="etiquette_lang">HTML/CSS</label>
+                <input type="checkbox" id="input_html">
+                <label for="input_js" class="etiquette_lang">JS</label>
+                <input type="checkbox" id="input_js">
+                <label for="input_css" class="etiquette_lang">CSS</label>
+                <input type="checkbox" id="input_css">
+                
+            </fieldset>
+        </form>
     </section>
     </div>
     <div class="global" id="menu">
@@ -50,9 +74,27 @@
         </div>
         <!---->
          <!-- section inscription-->
-   <div class="global" id="Inscription">
+   <div class="galerie" id="galerie">
     <section>
-        <h1>galerie</h1>
+        <h2>galerie</h2>
+        <figure class="galerie">
+            <figure class="galerie_figure"></figure>
+            <figure class="galerie_img" src="" alt=""> 
+                <figcaption class="galerie_caption"></figcaption>
+            </figure>
+        </figure>
+        <img src="images/galerie_1.jpg" alt="">
+        <figure></figure>
+        <figcaption>
+
+        </figcaption>
+        <img src="images/galerie2.jpg" alt="">
+        <figure></figure>
+        <figcaption></figcaption>
+        <figure></figure>
+        <img src="images/galerie_4.jpg" alt="">
+        <figcaption></figcaption>
+        <figure></figure>
     </section>
     </div>
     <div class="global" id="menu">

@@ -39,17 +39,20 @@ body{
    
 }
 .global section,
-.global header , .global footer {
+.global header ,
+ .global footer {
     display: flex;
     flex: 0 1  1000px;
     border: 1px solid #aaa;
     background-color: rgba(0, 0, 0, 0.1);
-    
+    background-color: rgba(0, 0, 0,0.1);
 
 }
+.global
 
 #entete {
-    background-color: rgb(224, 255, 50);
+    background-color: rgb(182, 182, 182);
+    background-image: linear-gradient(90deg, #f00, #00f);
     min-height: 1vh;
     position: sticky;
     top: 0;
@@ -58,12 +61,28 @@ body{
 #entete header {
 
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    
     /* permet de définir le référenciel */ 
 }
 #acceuil {
-    background-color: aquamarine;
+    background-color: rgb(153, 156, 155);
 }
 #inscription{
     background-color: bisque;
+}
+
+h1{
+
+    font-size: clamp(1.5rem, -1.4167rem + 9.3333vw, 5rem);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: clamp(1.75rem, 0.0833rem + 5.3333vw, 3.75rem);
+    margin-top: ;
+}
+h3{
+
 }

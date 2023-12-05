@@ -28,6 +28,7 @@
         width: 400px;
         height:400px ;
     }
+    /* si la case est cocher on fait apparaitre l'image «X» ,sinon on fait disparaitre l'IMAGE«g
     /* les conteneurs div autour de chaque section */
     .global {
         display: flex;
@@ -66,4 +67,12 @@
     }
     #inscription{
         background-color: bisque;
+    }
+    #burger {
+        width: 40px;
+        position: absolute;
+        margin-left: auto;
+        top: 0;
+        right: 0;
+    
     }
